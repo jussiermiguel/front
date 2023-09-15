@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="center">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="center">
+            <div >
+                <img src="imagens/foto.jpg">
+           
+            <h1>Jussiêr</h1>
+            <h2>Desenvolvedor em formação</h2>
+            </div>      
+        </header>
+        <form class="contact-form" action="https://formsubmit.co/jussier.miguel08@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+    
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" required>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+    
+            <button type="submit">Send</button>
+       </form>
+    </div>
+
+</body>
+</html>
