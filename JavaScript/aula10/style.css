@@ -1,0 +1,35 @@
+body {
+    background-color: darkblue;
+    padding: 100px;
+    margin: 100px; /* Remova qualquer margem padrão do corpo */
+    height: 100%; /* Defina a altura do corpo como 100% */
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente o conteúdo */
+    align-items: center; /* Centralize verticalmente o conteúdo */
+}
+.area{
+    font: normal 20pt Arial;
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#btn{
+    font: normal 10pt Arial;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+

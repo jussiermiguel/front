@@ -1,0 +1,65 @@
+Operadores Aritméticos:
+
++: Adição
+-: Subtração
+*: Multiplicação
+/: Divisão
+%: Módulo (resto da divisão)
+++: Incremento (aumenta em 1)
+--: Decremento (diminui em 1)
+
+
+Operadores de Atribuição:
+
+=: Atribuição simples
++=: Atribuição com adição
+-=: Atribuição com subtração
+*=: Atribuição com multiplicação
+/=: Atribuição com divisão
+%=: Atribuição com módulo
+
+
+Operadores de Comparação:
+
+==: Igualdade (compara valores)
+===: Igualdade estrita (compara valores e tipos de dados)
+!=: Desigualdade (compara valores)
+!==: Desigualdade estrita (compara valores e tipos de dados)
+<: Menor que
+>: Maior que
+<=: Menor ou igual a
+>=: Maior ou igual a
+
+
+Operadores Lógicos:
+
+&&: Operador lógico E (AND)
+||: Operador lógico OU (OR)
+!: Operador lógico NOT (NÃO)
+
+
+Operadores de Tipo:
+
+typeof: Retorna uma string que indica o tipo de dado de uma variável ou expressão.
+instanceof: Verifica se um objeto é uma instância de uma classe específica.
+Operadores de Bitwise (trabalham com bits):
+
+&: E bitwise
+|: OU bitwise
+^: OU exclusivo bitwise
+~: Negação bitwise
+<<: Deslocamento à esquerda
+>>: Deslocamento à direita com preenchimento de sinal
+>>>: Deslocamento à direita sem preenchimento de sinal
+Operador de Concatenação de Strings:
+
++: Usado para concatenar strings.
+Operador Condicional (Ternário):
+
+expressão ? valor_se_verdadeiro : valor_se_falso: É uma forma compacta de expressar uma decisão condicional.
+Operador de Membro:
+
+.: Usado para acessar propriedades e métodos de objetos.
+Operador de Indexação:
+
+[]: Usado para acessar elementos de arrays e propriedades de objetos usando uma chave.
