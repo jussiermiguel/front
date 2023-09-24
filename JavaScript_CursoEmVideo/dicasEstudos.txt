@@ -1,0 +1,11 @@
+functions
+objetos > orientação a objetos
+modularização
+RegEx
+JSON
+AJAX
+Node.js 
+frameworks
+>   jQery
+>   Vue.js
+>   Angular
