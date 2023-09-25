@@ -1,9 +1,9 @@
 function carregar(){
     var mensagem = window.document.getElementById('msg');
     var imagem = window.document.getElementById("imagem")
-    // var data = new Date();
-    // var hora = data.getHours();
-    var hora = 10;
+    var data = new Date();
+    var hora = data.getHours();
+    var hora = 10; // hora adicionada para teste
 
     if (hora < 12){
         mensagem.innerHTML = `Agora são ${hora} horas. Bom dia`
