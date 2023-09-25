@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Modelo de exercício</title>
+    <title>Contador</title>
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div class="div1">Testando</div>
-        <div class="div2">Olá</div>
+        <div id="entrada">
+            <p>Início: <input type="number" name="inicio" id="inicio"></p> 
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+            <p>Passo: <input type="number" name="passo" id="passo"></p>
+            <!-- <p><input type="button" value="Contar" onclick="contador()"></p> -->
+            <p><button value="Contar" onclick="contador()">Contar</button></p>
+        </div>
+        <div id="saida">Insira os dados para verificar</div>
     </section>
     <footer>
         <p>&copy; Curso em video</p>

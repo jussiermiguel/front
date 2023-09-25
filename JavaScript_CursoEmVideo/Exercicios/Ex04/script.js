@@ -1,15 +1,16 @@
-let data = new Date().getHours;
+function tabuada(){
+    let numero = document.getElementById('num');
+    let saida = document.getElementById('saida');    
 
-let div1 = document.getElementsByClassName("div1");
-let div2 = document.getElementsByClassName("div1");
-
-if (data > 6){
-    div1.style.background = orange;
-}
-else if (data > 12){
-    div1.style.background = red;
-}
-
-else{
-    div1.style.background = blue;
+    saida.innerHTML = ''
+    if (num.value.length == 0){
+        window.alert("Informe todos os campos")
+    }
+    else{
+        let num = Number(numero.value);
+        for(let i = 0; i <= 10; i++){
+            saida.innerHTML += `<br>${num} x ${i} = ${num * i}`
+        }
+        
+    }
 }
