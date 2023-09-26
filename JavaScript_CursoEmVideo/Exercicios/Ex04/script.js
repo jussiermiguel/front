@@ -3,7 +3,7 @@ function tabuada(){
     let saida = document.getElementById('saida');    
 
     saida.innerHTML = ''
-    if (num.value.length == 0){
+    if (numero.value.length == 0){
         window.alert("Informe todos os campos")
     }
     else{
