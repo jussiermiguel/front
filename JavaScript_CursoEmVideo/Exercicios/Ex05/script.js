@@ -6,25 +6,26 @@ function analizarNum(){
     let saida = document.querySelector('div#saida');
 
     saida.innerHTML = ''
-    // if (num.length == 0){
-    //     window.alert("Digite um número")
-    //     num = ""; // Limpa o campo de entrada
-    //     return;
-    // }
-    if(isNaN(num) || num > 10){
-        window.alert('Digite um valor entre 1 e 10');
+
+    if(isNaN(num) || num > 100){
+        window.alert('Digite um valor entre 1 e 100');
         document.getElementById('num').value = '';// limpa o campo
     }
-    else{
-
-        numeros.push(num);
-        soma += num;
-        
-        if (num <= menor){
-            menor = num;
+    else {
+        if (numeros.includes(num)) {
+            window.alert('Este número já foi adicionado.');
         }
-        else if (num >= maior){
-            maior = num;
+        else{            
+            numeros.push(num);
+            soma += num;
+            
+            if (num <= menor){
+                menor = num;
+            }
+            else if (num >= maior){
+                maior = num;
+            }
+
         }
         
         
